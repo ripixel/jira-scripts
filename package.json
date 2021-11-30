@@ -1,0 +1,22 @@
+{
+  "name": "jira-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "next": "ts-node nextSprint.ts",
+    "current": "ts-node currentSprint.ts",
+    "previous": "ts-node previousSprint.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "node-fetch": "^2.6.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12"
+  }
+}
